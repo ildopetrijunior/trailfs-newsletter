@@ -11,9 +11,18 @@
     --stroke-color: #1E293B;
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
+
+    --font-family: "Poppins", sans-serif;
+    --title-lg: 800 24px/135% var(--font-family);
+    --title-md: 800 16px/140% var(--font-family);
+    --title-sm: 800 14px/140% var(--font-family);
+    --span-md: 600 14px/145% var(--font-family);
+    --text-md: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/160% var(--font-family);
 }
 
 body {
+    font: var(--text-md);
     color: var(--text-color-primary);
     background-color: var(--background-color);
 }
