@@ -5,7 +5,7 @@
 }
 
 :root {
-    --brand-color-light: ##60A5FA;
+    --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
     --background-color: #0F172A;
     --stroke-color: #1E293B;
@@ -17,6 +17,7 @@
     --title-md: 800 16px/140% var(--font-family);
     --title-sm: 800 14px/140% var(--font-family);
     --span-md: 600 14px/145% var(--font-family);
+    --span-sm: 500 10/120% var(--font-family);
     --text-md: 400 16px/140% var(--font-family);
     --text-sm: 400 14px/160% var(--font-family);
 }
@@ -25,4 +26,19 @@ body {
     font: var(--text-md);
     color: var(--text-color-primary);
     background-color: var(--background-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color-light);
+}
+
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
 }

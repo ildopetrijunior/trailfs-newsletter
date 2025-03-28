@@ -1,0 +1,16 @@
+header {
+    nav {
+        padding-block: 14px;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+
+    nav:first-of-type {
+        padding-block: 20px;
+    }
+}
