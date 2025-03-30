@@ -60,3 +60,27 @@ section header {
         }
     }
 }
+
+#weekly {
+
+    &>div{
+        grid-template-columns: repeat(4, 292px);
+        padding-bottom: 24px;
+    }
+
+    img {
+        height: 160px;
+    }
+
+    figure {
+        position: relative;
+
+        .content-tag {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+
+    }
+}
