@@ -1,3 +1,26 @@
+section header {
+    border-top: 1px solid var(--stroke-color);
+    padding-block: 12px 24px;
+    font: var(--span-md);
+
+
+    a {
+        justify-self: end;
+        align-items: center;
+        gap: 8px;
+    
+        span {
+            background-image: url(../assets/icons/arrow-icon.svg);
+            width: 16px;
+            height: 16px;
+        }
+
+        &:hover span{
+            background-image: url(../assets/icons/hover-arrow-icon.svg);
+        }
+    }
+}
+
 #featured {
     img {
         height: 100%;
